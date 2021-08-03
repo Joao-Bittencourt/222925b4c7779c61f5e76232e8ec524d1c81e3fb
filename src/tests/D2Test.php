@@ -21,7 +21,7 @@ class D2Test extends TestCase
         $b1 = new D2($std);
         $resp = "{$b1}";
 
-        $expected = 'D2233798970001010000000001   03022021PEDIDO                        00011100ANDREIA SALETE SCHIENEMAYER             00006660598960';
+        $expected = 'D223379897000101000000000000103022021PEDIDO                        00011100ANDREIA SALETE SCHIENEMAYER             00006660598960';
 
         $this->assertEquals($expected, $resp);
     }

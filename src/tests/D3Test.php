@@ -30,7 +30,7 @@ class D3Test extends TestCase
         $b1 = new D3($std);
         $resp = "{$b1}";
 
-        $expected = 'D30000000002   0302202100100000000000001Produto 1                                                                                           0000100KG 00010000000000000000000000000000010000T0700N22';
+        $expected = 'D300000000000020302202100100000000000001Produto 1                                                                                           0000100KG 00010000000000000000000000000000010000T0700N22';
 
         $this->assertEquals($expected, $resp);
     }
