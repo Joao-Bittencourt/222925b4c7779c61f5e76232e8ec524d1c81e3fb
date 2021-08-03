@@ -16,6 +16,8 @@ jobs:
       fail-fast: false
       matrix:
         php-version: ['7.2', '7.4', '8.0']
+        ini-values: apc.enable_cli = 1
+        coverage: pcov
        
          
     steps:
@@ -29,6 +31,7 @@ jobs:
     - name: see PHP
       run: 
           echo ${{ matrix.php-version }}
+          
     - name: Composer install
       run: | 
           composer update 
@@ -36,5 +39,13 @@ jobs:
     
    
     - name: Run PHPUnit
-      run: |     
+      run: |       
+       if [[ ${{ matrix.php-version }} == '7.4' ]]; then
+           export CODECOVERAGE=1 && vendor/bin/phpunit --verbose --coverage-clover=coverage.xml
+        else
           vendor/bin/phpunit
+        fi
+   
+    - name: Code Coverage Report
+      if: matrix.php-version == '7.4' 
+      uses: codecov/codecov-action@v1

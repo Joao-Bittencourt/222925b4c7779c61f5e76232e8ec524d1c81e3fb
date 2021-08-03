@@ -1,3 +1,5 @@
+[![CI](https://github.com/Joao-Bittencourt/paf-nfce-sc/actions/workflows/php.yml/badge.svg)](https://github.com/Joao-Bittencourt/paf-nfce-sc/actions/workflows/php.yml)
+
 # PAF NFCE - SC
 Lib para geração do arquivo necessário para validar o PAF - NFCe em SC, conforme ato:
 
