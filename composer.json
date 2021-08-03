@@ -1,0 +1,49 @@
+{
+    "name": "ismaeladriano/paf-nfce-sc",
+    "type": "library",
+    "version": "0.0.1",
+    "description": "API para geração dos arquivos para PAF-NFCe",
+    "keywords": ["sc", "paf-nfce"],
+    "homepage": "https://github.com/ismaeladriano/paf-nfce-sc",
+    "license": ["GPL-3.0+", "LGPL-3.0+"],
+    "authors": [
+        {
+            "name": "Ismael A. Goncalves",
+            "email": "ismael_adriano@hotmail.com",
+            "homepage": "https://github.com/ismaeladriano",
+            "role": "dev"
+        }
+    ],
+    "require": {
+        "php" : ">=7.0",
+        "nfephp-org/sped-common": "^5.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.50",
+        "phpunit/phpunit": "^9.4",
+        "squizlabs/php_codesniffer": "^3.5",
+        "scrutinizer/ocular": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+          "IsmaelAdriano\\PAFNFCe\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "IsmaelAdriano\\PAFNFCe\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "phpunit": "phpunit",
+        "phpcbf": "vendor/bin/phpcbf --standard=psr2 src/ ",
+        "phpcs": "vendor/bin/phpcs --standard=psr2 src/",
+        "phpstan": "vendor/bin/phpstan analyse src/ --level 7",
+        "test": "phpunit --colors=always",
+        "test-coverage": "phpunit --colors=always --coverage-clover clover.xml"
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "stable"
+}
