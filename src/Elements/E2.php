@@ -77,7 +77,7 @@ class E2 extends Element implements ElementInterface
         ],
         'DATA_EMISSAO' => [
             'type' => 'string',
-            'regex' => '^([12]\d{3})(0[1-9]|1[0-2])(0[1-9]|[1-2][0-9]|31(?!(?:0[2469]|11))|30(?!02))$',
+            'regex' => '^(0[1-9]|[1-2][0-9]|31(?!(?:0[2469]|11))|30(?!02))(0[1-9]|1[0-2])([12][0]\d{2})$',
             'required' => true,
             'info' => 'Data em que o arquivo foi solicitado',
             'format' => '',
@@ -85,7 +85,7 @@ class E2 extends Element implements ElementInterface
         ],
         'DATA_ESTOQUE' => [
             'type' => 'string',
-            'regex' => '^([12]\d{3})(0[1-9]|1[0-2])(0[1-9]|[1-2][0-9]|31(?!(?:0[2469]|11))|30(?!02))$',
+            'regex' => '^(0[1-9]|[1-2][0-9]|31(?!(?:0[2469]|11))|30(?!02))(0[1-9]|1[0-2])([12][0]\d{2})$',
             'required' => true,
             'info' => 'Data da posição do estoque',
             'format' => '',
