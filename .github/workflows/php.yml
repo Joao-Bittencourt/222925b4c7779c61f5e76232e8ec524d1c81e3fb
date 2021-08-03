@@ -16,8 +16,7 @@ jobs:
       fail-fast: false
       matrix:
         php-version: ['7.2', '7.4', '8.0']
-        ini-values: apc.enable_cli = 1
-        coverage: pcov
+        
        
          
     steps:
@@ -27,6 +26,8 @@ jobs:
       uses: shivammathur/setup-php@v2
       with:
         php-version: ${{ matrix.php-version }}
+        ini-values: apc.enable_cli = 1
+        coverage: pcov
      
     - name: see PHP
       run: 
