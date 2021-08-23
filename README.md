@@ -4,6 +4,7 @@ Lib para geração do arquivo necessário para validar o PAF - NFCe em SC, confo
 
 http://www.sef.sc.gov.br/arquivos_portal/servicos/136/Ato_DIAT_53_2020___Anexo_II.pdf
 
+> Este projeto é um "Clone" do repositorio [PAF-NFCe-SC](https://github.com/ismaeladriano/paf-nfce-sc)
 # Testes unitários dos blocos
 
 ``
