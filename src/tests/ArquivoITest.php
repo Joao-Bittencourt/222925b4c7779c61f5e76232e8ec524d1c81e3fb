@@ -81,8 +81,8 @@ class ArquivoITest extends TestCase {
         $expected[] = 'U1266072350001301257775242                  Teste NFCe SC                                     ';
         $expected[] = 'A227022021Dinheiro                 1000000031000              0000000000';
         $expected[] = 'A227022021Cheque                   2000000032000              0000000001';
-        $expected = implode(PHP_EOL, $expected);
-        $expected .= PHP_EOL;
+        $expected = implode("\r\n", $expected);
+        $expected .= "\r\n";
         
         
         $this->assertEquals($expected, $arquivo);
