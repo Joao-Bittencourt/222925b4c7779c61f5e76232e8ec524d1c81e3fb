@@ -1,23 +1,23 @@
 <?php
 
-namespace IsmaelAdriano\PAFNFCe;
+namespace joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX;
 
-use IsmaelAdriano\PAFNFCe\Blocks\BlockA2;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockU1;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockP2;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockE2;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockD2;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockD3;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockD4;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockEAD;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockJ1;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockJ2;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockZ1;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockZ2;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockZ3;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockZ4;
-use IsmaelAdriano\PAFNFCe\Blocks\BlockZ9;
-use IsmaelAdriano\PAFNFCe\PAFNFCe;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockA2;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockU1;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockP2;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockE2;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockD2;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockD3;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockD4;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockEAD;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockJ1;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockJ2;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockZ1;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockZ2;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockZ3;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockZ4;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockZ9;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\PAFNFCe;
 
 final class PAFNFCeBuilder extends PAFNFCe
 {

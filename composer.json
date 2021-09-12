@@ -1,10 +1,11 @@
 {
-    "name": "joaobitencourt/222925b4c7779c61f5e76232e8ec524d1c81e3fb",
+
+    "name": "joaobitencourt/NCHMETQYRZULKOPIJDSWGVBAFX",
     "type": "library",
     "version": "0.0.1",
     "description": "API para geração dos arquivos para PAF-NFCe",
     "keywords": ["sc", "paf-nfce"],
-    "homepage": "https://github.com/Joao-Bittencourt/paf-nfce-sc",
+    "homepage": "https://github.com/Joao-Bittencourt/NCHMETQYRZULKOPIJDSWGVBAFX",
     "license": ["GPL-3.0+", "LGPL-3.0+"],
     "require": {
         "php" : ">=7.0",
@@ -18,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-          "IsmaelAdriano\\PAFNFCe\\": "src/"
+          "joaobitencourt\\NCHMETQYRZULKOPIJDSWGVBAFX\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "IsmaelAdriano\\PAFNFCe\\Tests\\": "tests/"
+            "joaobitencourt\\NCHMETQYRZULKOPIJDSWGVBAFX\\Tests\\": "tests/"
         }
     },
     

@@ -1,10 +1,10 @@
 <?php
 
-namespace IsmaelAdriano\PAFNFCe\Blocks;
+namespace joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks;
 
-use IsmaelAdriano\PAFNFCe\Elements;
-use IsmaelAdriano\PAFNFCe\Common\Block;
-use IsmaelAdriano\PAFNFCe\Common\BlockInterface;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Elements;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common\Block;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common\BlockInterface;
 
 final class BlockA2 extends Block implements BlockInterface
 {

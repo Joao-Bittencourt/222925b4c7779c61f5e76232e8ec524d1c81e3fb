@@ -1,8 +1,8 @@
 <?php
 
-namespace IsmaelAdriano\PAFNFCe\Common;
+namespace joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common;
 
-use IsmaelAdriano\PAFNFCe\Common\ArquivoInterface;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common\ArquivoInterface;
 use \stdClass;
 
 abstract class Arquivo implements ArquivoInterface {
@@ -63,7 +63,7 @@ abstract class Arquivo implements ArquivoInterface {
             case 'J1':
             case 'J2':
             case 'U1':
-                $ClassElement = 'IsmaelAdriano\PAFNFCe\Elements\\' . $element;
+                $ClassElement = 'joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Elements\\' . $element;
                 if (class_exists($ClassElement)) {
                     return new $ClassElement($std->$element);
                 }
@@ -88,7 +88,7 @@ abstract class Arquivo implements ArquivoInterface {
             case 'J1':
             case 'J2':
             case 'U1':
-                $ClassElement = 'IsmaelAdriano\PAFNFCe\Elements\\' . $element;
+                $ClassElement = 'joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Elements\\' . $element;
                 if (class_exists($ClassElement)) {
 
 
