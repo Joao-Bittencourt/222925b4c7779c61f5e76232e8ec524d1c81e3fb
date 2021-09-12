@@ -1,8 +1,8 @@
 <?php
 
-namespace joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Elements;
+namespace joaobitencourt\nchmetqyrzulkopijdswgvbafx\Elements;
 
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common\Element;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Common\Element;
 use \stdClass;
 
 class Z4 extends Element

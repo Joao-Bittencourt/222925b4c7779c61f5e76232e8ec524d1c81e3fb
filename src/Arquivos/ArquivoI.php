@@ -1,9 +1,9 @@
 <?php
 
-namespace joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Arquivos;
+namespace joaobitencourt\nchmetqyrzulkopijdswgvbafx\Arquivos;
 
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common\Arquivo;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common\ArquivoInterface;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Common\Arquivo;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Common\ArquivoInterface;
 use \stdClass;
 
 class ArquivoI extends Arquivo implements ArquivoInterface {

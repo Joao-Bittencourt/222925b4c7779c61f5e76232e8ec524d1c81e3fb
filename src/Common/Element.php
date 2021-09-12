@@ -1,10 +1,10 @@
 <?php
 
-namespace joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common;
+namespace joaobitencourt\nchmetqyrzulkopijdswgvbafx\Common;
 
 use \stdClass;
 use NFePHP\Common\Strings;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common\ElementInterface;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Common\ElementInterface;
 use Exception;
 
 abstract class Element implements ElementInterface

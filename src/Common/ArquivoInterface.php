@@ -1,6 +1,6 @@
 <?php
 
-namespace joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common;
+namespace joaobitencourt\nchmetqyrzulkopijdswgvbafx\Common;
 
 interface ArquivoInterface {
 

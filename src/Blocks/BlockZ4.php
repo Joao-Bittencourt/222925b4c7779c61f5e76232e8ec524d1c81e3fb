@@ -1,9 +1,9 @@
 <?php
 
-namespace joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks;
+namespace joaobitencourt\nchmetqyrzulkopijdswgvbafx\Blocks;
 
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Elements;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common\Block;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Elements;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Common\Block;
 
 final class BlockZ4 extends Block
 {

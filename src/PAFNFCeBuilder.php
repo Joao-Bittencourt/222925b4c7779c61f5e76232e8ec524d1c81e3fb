@@ -1,23 +1,23 @@
 <?php
 
-namespace joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX;
+namespace joaobitencourt\nchmetqyrzulkopijdswgvbafx;
 
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockA2;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockU1;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockP2;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockE2;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockD2;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockD3;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockD4;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockEAD;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockJ1;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockJ2;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockZ1;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockZ2;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockZ3;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockZ4;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks\BlockZ9;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\PAFNFCe;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Blocks\BlockA2;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Blocks\BlockU1;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Blocks\BlockP2;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Blocks\BlockE2;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Blocks\BlockD2;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Blocks\BlockD3;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Blocks\BlockD4;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Blocks\BlockEAD;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Blocks\BlockJ1;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Blocks\BlockJ2;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Blocks\BlockZ1;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Blocks\BlockZ2;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Blocks\BlockZ3;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Blocks\BlockZ4;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Blocks\BlockZ9;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\PAFNFCe;
 
 final class PAFNFCeBuilder extends PAFNFCe
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common;
+namespace joaobitencourt\nchmetqyrzulkopijdswgvbafx\Common;
 
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common\ArquivoInterface;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Common\ArquivoInterface;
 use \stdClass;
 
 abstract class Arquivo implements ArquivoInterface {
@@ -63,7 +63,7 @@ abstract class Arquivo implements ArquivoInterface {
             case 'J1':
             case 'J2':
             case 'U1':
-                $ClassElement = 'joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Elements\\' . $element;
+                $ClassElement = 'joaobitencourt\nchmetqyrzulkopijdswgvbafx\Elements\\' . $element;
                 if (class_exists($ClassElement)) {
                     return new $ClassElement($std->$element);
                 }
@@ -88,7 +88,7 @@ abstract class Arquivo implements ArquivoInterface {
             case 'J1':
             case 'J2':
             case 'U1':
-                $ClassElement = 'joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Elements\\' . $element;
+                $ClassElement = 'joaobitencourt\nchmetqyrzulkopijdswgvbafx\Elements\\' . $element;
                 if (class_exists($ClassElement)) {
 
 

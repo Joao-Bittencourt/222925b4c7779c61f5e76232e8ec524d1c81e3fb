@@ -1,8 +1,8 @@
 <?php
 
-namespace joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Tests;
+namespace joaobitencourt\nchmetqyrzulkopijdswgvbafx\Tests;
 
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Elements\U1;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Elements\U1;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Elements;
+namespace joaobitencourt\nchmetqyrzulkopijdswgvbafx\Elements;
 
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common\Element;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common\ElementInterface;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Common\Element;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Common\ElementInterface;
 use \stdClass;
 
 class EAD extends Element implements ElementInterface

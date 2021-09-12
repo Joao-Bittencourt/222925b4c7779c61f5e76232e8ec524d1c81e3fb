@@ -1,10 +1,10 @@
 <?php
 
-namespace joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Blocks;
+namespace joaobitencourt\nchmetqyrzulkopijdswgvbafx\Blocks;
 
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Elements;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common\Block;
-use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common\BlockInterface;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Elements;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Common\Block;
+use joaobitencourt\nchmetqyrzulkopijdswgvbafx\Common\BlockInterface;
 
 final class BlockA2 extends Block implements BlockInterface
 {
