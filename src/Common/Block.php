@@ -1,7 +1,7 @@
 <?php
-namespace IsmaelAdriano\PAFNFCe\Common;
+namespace joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common;
 
-use IsmaelAdriano\PAFNFCe\Common\BlockInterface;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common\BlockInterface;
 
 abstract class Block implements BlockInterface
 {

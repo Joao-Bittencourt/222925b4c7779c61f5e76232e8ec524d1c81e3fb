@@ -1,8 +1,8 @@
 <?php
 
-namespace IsmaelAdriano\PAFNFCe\Elements;
+namespace joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Elements;
 
-use IsmaelAdriano\PAFNFCe\Common\Element;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common\Element;
 use \stdClass;
 
 class Z3 extends Element

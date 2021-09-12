@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-          "IsmaelAdriano\\PAFNFCe\\": "src/"
+          "joaobitencourt\\NCHMETQYRZULKOPIJDSWGVBAFX\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "IsmaelAdriano\\PAFNFCe\\Tests\\": "tests/"
+            "joaobitencourt\\NCHMETQYRZULKOPIJDSWGVBAFX\\Tests\\": "tests/"
         }
     },
     

@@ -1,8 +1,8 @@
 <?php
 
-namespace IsmaelAdriano\PAFNFCe;
+namespace joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX;
 
-use IsmaelAdriano\PAFNFCe\Common\BlockInterface;
+use joaobitencourt\NCHMETQYRZULKOPIJDSWGVBAFX\Common\BlockInterface;
 
 abstract class PAFNFCe
 {
