@@ -1,19 +1,11 @@
 {
-    "name": "joaobitencourt/222925b4c7779c61f5e76232e8ec524d1c81e3fb",
+    "name": "joaobitencourt/NCHMETQYRZULKOPIJDSWGVBAFX",
     "type": "library",
     "version": "0.0.1",
     "description": "API para geração dos arquivos para PAF-NFCe",
     "keywords": ["sc", "paf-nfce"],
-    "homepage": "https://github.com/ismaeladriano/paf-nfce-sc",
+    "homepage": "https://github.com/Joao-Bittencourt/NCHMETQYRZULKOPIJDSWGVBAFX",
     "license": ["GPL-3.0+", "LGPL-3.0+"],
-    "authors": [
-        {
-            "name": "Ismael A. Goncalves",
-            "email": "ismael_adriano@hotmail.com",
-            "homepage": "https://github.com/ismaeladriano",
-            "role": "dev"
-        }
-    ],
     "require": {
         "php" : ">=7.0",
         "nfephp-org/sped-common": "^5.0"
